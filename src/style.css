@@ -1,0 +1,47 @@
+@font-face {
+  font-family: BriosoPro Italic;
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/BriosoPro Italic.woff") format("woff"), url("./fonts/BriosoPro Italic.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/Lato-Bold.woff") format("woff"), url("./fonts/Lato-Bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: Lato;
+}
+
+section.jopa {
+  font-weight: bold;
+}
+
+section.yaykee {
+  border: 1px solid violet;
+}
+
+@media (max-width: 500px) {
+  section.jopa {
+    color: blue;
+  }
+
+  section.yaykee {
+    background-color: tomato;
+  }
+}
+
+@media (max-width: 100px) {
+  body {
+    font-size: 500px;
+  }
+
+  section.jopa {
+    font-weight: 400;
+  }
+}

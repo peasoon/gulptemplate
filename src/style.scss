@@ -1,0 +1,29 @@
+@import "./_fonts.scss";
+
+body {
+  font-family: Lato;
+
+  @media (max-width: 100px) {
+    font-size: 500px;
+  }
+}
+
+section.jopa {
+  font-weight: bold;
+
+  @media (max-width: 500px) {
+    color: blue;
+  }
+
+  @media (max-width: 100px) {
+    font-weight: 400;
+  }
+}
+
+section.yaykee {
+  border: 1px solid violet;
+
+  @media (max-width: 500px) {
+    background-color: tomato;
+  }
+}
